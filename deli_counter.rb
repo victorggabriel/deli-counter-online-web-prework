@@ -17,9 +17,8 @@ end
 #   puts "Welcome, #{name}. You are number #{katz_deli.count} in line."
 # end
  
- 
+ i = 1 
 def take_a_number(katz_deli)
-  i = 1 
   katz_deli << i 
   puts "Welcome, your ticket number is #{i}, and you are #{katz_deli.length} in line"
   i + 1 
