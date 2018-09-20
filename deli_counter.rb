@@ -19,6 +19,7 @@ end
  
 
 def take_a_number(katz_deli)
+  i = katz_deli.length + 1 
   katz_deli << i 
   puts "Welcome, your ticket number is #{i}, and you are #{katz_deli.length} in line"
   i + 1 
